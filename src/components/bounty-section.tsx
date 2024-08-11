@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Tt from "../../public/icons/usdc.svg";
 import dummyData, { DataProp } from "../../dummy-data";
+import { Bounties } from "./bounties";
 
 export const BountySection = () => {
   return (
@@ -33,38 +34,9 @@ export const BountySection = () => {
           </li>
         </ul>
       </div>
-      <Link href={"/"} className="bounty flex flex-col gap-5">
-        {dummyData.map((data: DataProp, index) => {
-          return (
-            <div
-              key={index}
-              className="bounty-details p-6 w-full border border-[#19154d] rounded-lg grid grid-cols-3"
-            >
-              <div className="col-span-2 grid gap-2">
-                <p className="font-semibold text-xs">{data.title}</p>
-                <p className="font-bold text-lg ">{data.task}</p>
-                <p className="text-[#999999] text-xs">
-                  Due in {data.ends_in} days
-                </p>
-              </div>
-              <div className="col-span-1 grid h-fit my-auto text-end gap-2">
-                <p className="text-[#999999] text-xs font-semibold">
-                  PRIZE REWARD
-                </p>
-                <div className="flex gap-1 justify-end">
-                  <Image
-                    src={data.reward_image}
-                    alt="icon"
-                    height={20}
-                    width={20}
-                  />
-                  <p className="text-lg font-semibold">{data.reward}</p>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </Link>
+      {dummyData.map((data: DataProp) => {
+        return <Bounties data={data} />;
+      })}
     </div>
   );
 };

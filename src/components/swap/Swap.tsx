@@ -55,8 +55,8 @@ export default function SwapComponents() {
 
   return (
     <div
-      className="
-    flex justify-center items-center  h-screen flex-col gap-2"
+      className="bg-[url('/images/hero-image.png')] bg-cover text-center py-[150px]
+    flex justify-center items-center flex-col gap-2"
     >
       {address ? (
         <>
