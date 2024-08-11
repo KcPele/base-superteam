@@ -10,7 +10,7 @@ import { useCallback, useState } from "react";
 import { TokenSearch, getTokens } from "@coinbase/onchainkit/token";
 import { useAccount, useSendTransaction } from "wagmi";
 import type { Token } from "@coinbase/onchainkit/token";
-import { ConnectButton } from "../connect button/ConnectButton";
+import { ConnectButton } from "../connect-button/ConnectButton";
 import type {
   BuildSwapTransaction,
   SwapError,

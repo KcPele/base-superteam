@@ -4,12 +4,13 @@ import "@coinbase/onchainkit/styles.css";
 
 import "./globals.css";
 import OnchainProviders from "@/providers/OnchainProviders";
+import { NavBar } from "@/components/nav-bar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Base Super Team",
-  description: "Super Team is a decentralized based project",
+  title: "Base Earn",
+  description: "BaseEarn is a decentralized based project",
 };
 
 export default function RootLayout({
@@ -20,7 +21,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <OnchainProviders>
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          <NavBar />
+          {children}
+          </body>
       </OnchainProviders>
     </html>
   );
