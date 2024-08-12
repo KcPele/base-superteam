@@ -34,8 +34,8 @@ export const BountySection = () => {
           </li>
         </ul>
       </div>
-      {dummyData.map((data: DataProp) => {
-        return <Bounties data={data} />;
+      {dummyData.map((data: DataProp, index) => {
+        return <Bounties key={index} data={data} />;
       })}
     </div>
   );
