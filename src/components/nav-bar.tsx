@@ -46,7 +46,7 @@ export const NavBar = () => {
   return (
     <div
       id="navbar"
-      className="flex items-center justify-around p-5 text-center fixed w-full text-black bg-transparent"
+      className="flex items-center justify-around p-5 text-center fixed w-full font-bold bg-transparent"
     >
       <Link href={"/"}>
         <h1 className="font-bold text-lg flex">
@@ -68,7 +68,7 @@ export const NavBar = () => {
           <Link href={"/"}>Projects </Link>{" "}
         </li>
         <li className="hover:underline">
-          <Link href={"/"}> Categories </Link>
+          <Link href={"/bounty"}> Bounties </Link>
         </li>
         <li className="hover:underline">
           <Link href={"/"}> Resources </Link>

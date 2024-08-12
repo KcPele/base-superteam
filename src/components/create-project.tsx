@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import CreateProjectForm from "./create-project-form";
 export const CreateProject = () => {
 
   return (
@@ -14,7 +15,7 @@ export const CreateProject = () => {
         </div>
       </div>
       <div className="bg-basebgblack text-basewhite pb-20 py-16 px-36">
-        
+        <CreateProjectForm />
       </div>
     </div>
   );

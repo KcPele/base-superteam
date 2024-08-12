@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export const Homepage = () => {
   return (
@@ -18,9 +19,11 @@ export const Homepage = () => {
           Base ecosystem like never before.
         </p>
 
-        <button className="bg-baseblue text-white rounded-3xl w-fit p-3 text-xs">
-          Get Started
-        </button>
+        <Link href={"/bounty"}>
+          <p className="bg-baseblue text-white rounded-3xl w-fit p-3 text-xs">
+            Get Started
+          </p>
+        </Link>
       </div>
     </div>
   );
