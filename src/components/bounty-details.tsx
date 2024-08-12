@@ -29,38 +29,47 @@ export const BountyDetails = ({ getData }: any) => {
       </div>
       <div className="grid bg-basebgblack gap-6 grid-cols-3 py-16 px-36">
         <div className="col-span-2 p-2 flex flex-col gap-3">
-          <p className="text-basewhite text-lg">About Listing and Space</p>
+          <p
+            className="text-
+          basewhite text-lg"
+          >
+            About Listing and Space
+          </p>
           <p className="text-basebrown">
-            Is making content your speciality? Well here's a Bounty for you!
-            We're looking for individuals who are able to share educational
-            content about what's happening in the ever growing Solana Ecosystem
+            Is making content your speciality? Well here&lsquo;s a Bounty for
+            you! We&lsquo;re looking for individuals who are able to share
+            educational content about what&lsquo;s happening in the ever growing
+            Solana Ecosystem
           </p>
           <p className="text-basewhite text-lg">Scope</p>
           <p className="text-basebrown">
-            Is making content your speciality? Well here's a Bounty for you!
-            We're looking for individuals who are able to share educMission:
-            Make a 1min educational video that talks about what's currently
-            happening in the Solana Ecosystem that would be informative to
-            @SuperteamMY followersational content about what's happening in the
-            ever growing Solana Ecosystem
+            Is making content your speciality? Well here&lsquo;s a Bounty for
+            you! We&lsquo;re looking for individuals who are able to share
+            educMission: Make a 1min educational video that talks about
+            what&lsquo;s currently happening in the Solana Ecosystem that would
+            be informative to @SuperteamMY followersational content about
+            what&lsquo;s happening in the ever growing Solana Ecosystem
           </p>
           <p className="text-basewhite text-lg">About Listing and Space</p>
           <p className="text-basebrown">
-            Is making content your speciality? Well here's a Bounty for you!
-            We're looking for individuals who are able to share educational
-            content about what's happening in the ever growing Solana Ecosystem
+            Is making content your speciality? Well here&lsquo;s a Bounty for
+            you! We&lsquo;re looking for individuals who are able to share
+            educational content about what&lsquo;s happening in the ever growing
+            Solana Ecosystem
           </p>
           <p className="text-basewhite text-lg">About Listing and Space</p>
           <p className="text-basebrown">
-            Is making content your speciality? Well here's a Bounty for you!
-            We're looking for individuals who are able to share educational
-            content about what's happening in the ever growing Solana Ecosystem
+            Is making content your speciality? Well here&lsquo;s a Bounty for
+            you! We&lsquo;re looking for individuals who are able to share
+            educational content about what&lsquo;s happening in the ever growing
+            Solana Ecosystem
           </p>
           <p className="text-basewhite text-lg">About Listing and Space</p>
           <p className="text-basebrown">
-            Is making content your speciality? Well here's a Bounty for you!
-            We're looking for individuals who are able to share educational
-            content about what's happening in the ever growing Solana Ecosystem
+            Is making content your speciality? Well here&lsquo;s a Bounty for
+            you! We&lsquo;re looking for individuals who are able to share
+            educational content about what&lsquo;s happening in the ever growing
+            Solana Ecosystem
           </p>
         </div>
         <div className="col-span-1 flex flex-col p-8 gap-6 rounded-lg shadow-md bg-baseblack h-fit">
