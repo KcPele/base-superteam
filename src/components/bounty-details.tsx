@@ -1,12 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import { DataProp } from "../../dummy-data";
 import { FaRegBell } from "react-icons/fa";
 
 export const BountyDetails = ({ getData }: any) => {
   return (
     <div>
-      <div className="bg-basewhite font-semibold flex px-28 pt-40 pb-10 justify-between">
+      <div className="bg-basewhite font-semibold flex px-36 pt-40 pb-10 justify-between">
         <div className="flex flex-col gap-2 max-w-lg">
           <p className="text-lg text-baseblack">{getData.title}</p>
           <p className="text-3xl text-baseblack">{getData.task}</p>
@@ -28,7 +27,7 @@ export const BountyDetails = ({ getData }: any) => {
           </div>
         </div>
       </div>
-      <div className="grid gap-6 grid-cols-3 py-16 px-28">
+      <div className="grid bg-basebgblack gap-6 grid-cols-3 py-16 px-36">
         <div className="col-span-2 p-2 flex flex-col gap-3">
           <p
             className="text-
@@ -84,7 +83,7 @@ export const BountyDetails = ({ getData }: any) => {
                 height={20}
                 width={20}
               />
-              <p className="text-lg">3,500 USDT</p>
+              <p className="text-lg text-basewhite">3,500 USDT</p>
             </div>
           </div>
           <div className="bg-basebrown p-[0.3px]"></div>
@@ -97,7 +96,7 @@ export const BountyDetails = ({ getData }: any) => {
                 height={20}
                 width={20}
               />
-              <p className="text-lg">1,500 USDT</p>
+              <p className="text-lg text-basewhite">1,500 USDT</p>
             </div>
           </div>
           <div className="grid grid-cols-2">
@@ -109,7 +108,7 @@ export const BountyDetails = ({ getData }: any) => {
                 height={20}
                 width={20}
               />
-              <p className="text-lg">1,000 USDT</p>
+              <p className="text-lg text-basewhite">1,000 USDT</p>
             </div>
           </div>
           <div className="grid grid-cols-2">
@@ -121,7 +120,7 @@ export const BountyDetails = ({ getData }: any) => {
                 height={20}
                 width={20}
               />
-              <p className="text-lg">500 USDT</p>
+              <p className="text-lg text-basewhite">500 USDT</p>
             </div>
           </div>
           <div className="grid grid-cols-2">
@@ -133,7 +132,7 @@ export const BountyDetails = ({ getData }: any) => {
                 height={20}
                 width={20}
               />
-              <p className="text-lg">5 USDT</p>
+              <p className="text-lg text-basewhite">5 USDT</p>
             </div>
           </div>
           <div className="bg-basebrown p-[0.3px]"></div>
@@ -141,7 +140,7 @@ export const BountyDetails = ({ getData }: any) => {
             <p className="text-basebrown text-lg">Due in</p>
             <p className="text-basebrown text-lg">{getData.ends_in} days</p>
           </div>
-          <div className="grid grid-cols-2 mt-2">
+          <div className="grid grid-cols-2 mt-2 text-basewhite">
             <button className="flex gap-1 items-center justify-center">
               <FaRegBell /> <span>Interested</span>
             </button>

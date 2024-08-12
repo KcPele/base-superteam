@@ -1,12 +1,11 @@
-import { BountySection } from "@/components/bounty-section";
-import { HeroSection } from "@/components/hero-section";
+
+import { Homepage } from "@/components/homepage";
 
 
 export default function Home() {
   return (
     <main className="">
-      <HeroSection />
-      <BountySection />
+      <Homepage />
     </main>
   );
 }

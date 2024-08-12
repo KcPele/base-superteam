@@ -2,8 +2,11 @@
 
 import React, { useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Logo from "../../public/images/logo.png";
 import { useAccount } from "wagmi";
 import { ConnectButton } from "./connect-button/ConnectButton";
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 
 export const NavBar = () => {
   const {} = useAccount();
@@ -14,11 +17,21 @@ export const NavBar = () => {
 
       if (navbar) {
         if (window.scrollY > 50) {
-          navbar.classList.add("bg-black", "shadow-lg", "border-b-1", "text-white");
+          navbar.classList.add(
+            "bg-basebgblack",
+            "shadow-lg",
+            "border-b-1",
+            "text-white"
+          );
           navbar.classList.remove("bg-transparent");
         } else {
           navbar.classList.add("bg-transparent");
-          navbar.classList.remove("bg-black", "shadow-lg", "border-b-1", "text-white");
+          navbar.classList.remove(
+            "bg-basebgblack",
+            "shadow-lg",
+            "border-b-1",
+            "text-white"
+          );
         }
       }
     };
@@ -35,9 +48,18 @@ export const NavBar = () => {
       id="navbar"
       className="flex items-center justify-around p-5 text-center fixed w-full text-black bg-transparent"
     >
-      <h1 className="font-bold">
-        Base<span className="text-baseblue">Earn</span>
-      </h1>
+      <Link href={"/"}>
+        <h1 className="font-bold text-lg flex">
+          <Image
+            src={Logo}
+            alt="logo"
+            height={30}
+            width={30}
+            className="h-5 w-5 m-auto"
+          />
+          Base<span className="text-baseblue">Earn</span>
+        </h1>
+      </Link>
       <ul className="flex gap-5">
         <li className="hover:underline">
           <Link href={"/"}> Learn </Link>
@@ -57,9 +79,12 @@ export const NavBar = () => {
       </ul>
       <div className="flex items-center gap-5">
         <Link href={"/"}>
-          <p className="text-baseblue">Post Bounties</p>
+          <p className="">Post Bounties</p>
         </Link>
-        <ConnectButton />
+        <Avatar>
+          <AvatarImage src="https://github.com/shadcn.png" />
+          <AvatarFallback>CN</AvatarFallback>
+        </Avatar>
       </div>
     </div>
   );

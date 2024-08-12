@@ -3,11 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const Bounties = ({ data }: any) => {
-  const dynamicHref = `/${data.title}`;
+  const dynamicHref = `/bounty/${data.title}`;
 
   return (
     <Link href={dynamicHref}>
-      <div key={data.id} className="bounty-details p-6 mb-5 w-full border border-[#19154d] rounded-lg grid grid-cols-3">
+      <div className="bounty-details p-6 mb-5 w-full border border-[#19154d] rounded-lg grid grid-cols-3">
         <div className="col-span-2 grid gap-2">
           <p className="font-semibold text-xs">{data.title}</p>
           <p className="font-bold text-lg">{data.task}</p>
