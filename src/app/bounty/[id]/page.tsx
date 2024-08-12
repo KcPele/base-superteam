@@ -2,7 +2,7 @@ import { BountyDetails } from '@/components/bounty-details'
 import { notFound } from 'next/navigation';
 import React from 'react'
 
-import dummyData, { DataProp } from '../../../dummy-data';
+import dummyData, { DataProp } from '../../../../dummy-data';
 
 export async function generateStaticParams() {
   return dummyData.map((data) => ({
