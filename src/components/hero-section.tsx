@@ -6,7 +6,7 @@ export const HeroSection = () => {
   return (
     <div className="bg-[url('/images/hero-image.png')]  bg-cover bg-center bg-no-repeat h-screen  gap-2 flex  flex-col px-4 sm:px-8 md:px-16 ">
       <div className=" flex-1 flex items-end justify-center">
-        <div className="pb-10">
+        <div className="pb-20">
           <h1 className="text-4xl xs:text-[46.78px]  text-center   font-bold text-baseblack">
             The Home of Bounties
           </h1>
