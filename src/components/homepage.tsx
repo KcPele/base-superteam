@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Homepage = () => {
   return (
-    <div className="bg-[url('/images/homepage-hero.png')] bg-fixed bg-cover bg-center bg-no-repeat gap-2 flex  flex-col h-screen px-4 sm:px-8 md:px-16 ">
+    <div className="bg-[url('/images/homepage-hero.png')]  bg-cover bg-center bg-no-repeat gap-2 flex  flex-col h-screen px-4 sm:px-8 md:px-16 ">
       <div className=" flex-1 flex items-end ">
         <h1 className="pointer-events-none text-3xl sm:text-5xl lg:text-7xl whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
           Earn&#44; Create and Innovate
