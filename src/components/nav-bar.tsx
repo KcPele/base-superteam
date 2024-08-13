@@ -18,19 +18,21 @@ export const NavBar = () => {
       if (navbar) {
         if (window.scrollY > 50) {
           navbar.classList.add(
-            "bg-basebgblack",
+            "bg-gradient-to-tr",
+            "from-basebgblack",
+            "to-basewhite",
             "shadow-lg",
-            "border-b-1",
-            "text-white"
+            "border-b",
           );
           navbar.classList.remove("bg-transparent");
         } else {
           navbar.classList.add("bg-transparent");
           navbar.classList.remove(
-            "bg-basebgblack",
+            "bg-gradient-to-tr",
+            "from-basebgblack",
+            "to-basewhite",
             "shadow-lg",
-            "border-b-1",
-            "text-white"
+            "border-b",
           );
         }
       }
@@ -46,7 +48,7 @@ export const NavBar = () => {
   return (
     <div
       id="navbar"
-      className="flex items-center justify-around p-5 text-center fixed w-full font-bold bg-transparent"
+      className="flex z-50 items-center justify-around p-5 text-center fixed w-full bg-transparent"
     >
       <Link href={"/"}>
         <h1 className="font-bold text-lg flex">

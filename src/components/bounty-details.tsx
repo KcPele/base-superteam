@@ -1,11 +1,12 @@
 import Image from "next/image";
 import React from "react";
+import { DataProp } from "../../dummy-data";
 import { FaRegBell } from "react-icons/fa";
 
 export const BountyDetails = ({ getData }: any) => {
   return (
     <div>
-      <div className="bg-basewhite font-semibold flex px-36 pt-40 pb-10 justify-between">
+      <div className="bg-basewhite font-semibold flex px-28 pt-40 pb-10 justify-between">
         <div className="flex flex-col gap-2 max-w-lg">
           <p className="text-lg text-baseblack">{getData.title}</p>
           <p className="text-3xl text-baseblack">{getData.task}</p>
@@ -27,49 +28,40 @@ export const BountyDetails = ({ getData }: any) => {
           </div>
         </div>
       </div>
-      <div className="grid bg-basebgblack gap-6 grid-cols-3 py-16 px-36">
+      <div className="grid bg-basebgblack gap-6 grid-cols-3 py-16 px-28">
         <div className="col-span-2 p-2 flex flex-col gap-3">
-          <p
-            className="text-
-          basewhite text-lg"
-          >
-            About Listing and Space
-          </p>
+          <p className="text-basewhite text-lg">About Listing and Space</p>
           <p className="text-basebrown">
-            Is making content your speciality? Well here&lsquo;s a Bounty for
-            you! We&lsquo;re looking for individuals who are able to share
-            educational content about what&lsquo;s happening in the ever growing
-            Solana Ecosystem
+            Is making content your speciality? Well here&lsquo;s a Bounty for you!
+            We&lsquo;re looking for individuals who are able to share educational
+            content about what&lsquo;s happening in the ever growing Solana Ecosystem
           </p>
           <p className="text-basewhite text-lg">Scope</p>
           <p className="text-basebrown">
-            Is making content your speciality? Well here&lsquo;s a Bounty for
-            you! We&lsquo;re looking for individuals who are able to share
-            educMission: Make a 1min educational video that talks about
-            what&lsquo;s currently happening in the Solana Ecosystem that would
-            be informative to @SuperteamMY followersational content about
-            what&lsquo;s happening in the ever growing Solana Ecosystem
+            Is making content your speciality? Well here&lsquo;s a Bounty for you!
+            We&lsquo;re looking for individuals who are able to share educMission:
+            Make a 1min educational video that talks about what&lsquo;s currently
+            happening in the Solana Ecosystem that would be informative to
+            @SuperteamMY followersational content about what&lsquo;s happening in the
+            ever growing Solana Ecosystem
           </p>
           <p className="text-basewhite text-lg">About Listing and Space</p>
           <p className="text-basebrown">
-            Is making content your speciality? Well here&lsquo;s a Bounty for
-            you! We&lsquo;re looking for individuals who are able to share
-            educational content about what&lsquo;s happening in the ever growing
-            Solana Ecosystem
+            Is making content your speciality? Well here&lsquo;s a Bounty for you!
+            We&lsquo;re looking for individuals who are able to share educational
+            content about what&lsquo;s happening in the ever growing Solana Ecosystem
           </p>
           <p className="text-basewhite text-lg">About Listing and Space</p>
           <p className="text-basebrown">
-            Is making content your speciality? Well here&lsquo;s a Bounty for
-            you! We&lsquo;re looking for individuals who are able to share
-            educational content about what&lsquo;s happening in the ever growing
-            Solana Ecosystem
+            Is making content your speciality? Well here&lsquo;s a Bounty for you!
+            We&lsquo;re looking for individuals who are able to share educational
+            content about what&lsquo;s happening in the ever growing Solana Ecosystem
           </p>
           <p className="text-basewhite text-lg">About Listing and Space</p>
           <p className="text-basebrown">
-            Is making content your speciality? Well here&lsquo;s a Bounty for
-            you! We&lsquo;re looking for individuals who are able to share
-            educational content about what&lsquo;s happening in the ever growing
-            Solana Ecosystem
+            Is making content your speciality? Well here&lsquo;s a Bounty for you!
+            We&lsquo;re looking for individuals who are able to share educational
+            content about what&lsquo;s happening in the ever growing Solana Ecosystem
           </p>
         </div>
         <div className="col-span-1 flex flex-col p-8 gap-6 rounded-lg shadow-md bg-baseblack h-fit">
@@ -83,7 +75,7 @@ export const BountyDetails = ({ getData }: any) => {
                 height={20}
                 width={20}
               />
-              <p className="text-lg text-basewhite">3,500 USDT</p>
+              <p className="text-lg text-basewhite">3&#44;500 USDT</p>
             </div>
           </div>
           <div className="bg-basebrown p-[0.3px]"></div>
@@ -96,7 +88,7 @@ export const BountyDetails = ({ getData }: any) => {
                 height={20}
                 width={20}
               />
-              <p className="text-lg text-basewhite">1,500 USDT</p>
+              <p className="text-lg text-basewhite">1&#44;500 USDT</p>
             </div>
           </div>
           <div className="grid grid-cols-2">
@@ -108,7 +100,7 @@ export const BountyDetails = ({ getData }: any) => {
                 height={20}
                 width={20}
               />
-              <p className="text-lg text-basewhite">1,000 USDT</p>
+              <p className="text-lg text-basewhite">1&#44;000 USDT</p>
             </div>
           </div>
           <div className="grid grid-cols-2">
