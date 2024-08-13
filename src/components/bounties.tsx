@@ -7,17 +7,17 @@ export const Bounties = ({ data }: any) => {
 
   return (
     <Link href={dynamicHref}>
-      <div className="bounty-details p-6 mb-5 w-full border border-[#19154d] rounded-lg grid grid-cols-3">
+      <div className="bounty-details  mb-5 w-full border border-[#19154d] rounded-lg grid gap-2 xs:grid-cols-3">
         <div className="col-span-2 grid gap-2">
           <p className="font-semibold text-xs">{data.title}</p>
           <p className="font-bold text-lg">{data.task}</p>
           <p className="text-basebrown text-xs">Due in {data.ends_in} days</p>
         </div>
-        <div className="col-span-1 grid h-fit my-auto text-end gap-2">
+        <div className="col-span-1 grid h-fit my-auto xs:text-end gap-2">
           <p className="text-basebrown text-xs font-semibold">PRIZE REWARD</p>
           <div className="flex gap-1 justify-end">
             <Image src={data.reward_image} alt="icon" height={20} width={20} />
-            <p className="text-lg font-semibold">{data.reward}</p>
+            <p className="text-lg font-semibold text-nowrap">{data.reward}</p>
           </div>
         </div>
       </div>
