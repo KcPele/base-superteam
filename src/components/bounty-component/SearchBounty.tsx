@@ -2,7 +2,7 @@ import React from "react";
 
 export const SearchBounty = () => {
   return (
-    <div className="search flex justify-center m-auto gap-2 text-sm mt-16 w-[700.71px]">
+    <div className="search flex justify-center m-auto gap-2 text-sm py-5 pb-10 w-[700.71px]">
       <input
         type="text"
         placeholder="search for bounties"

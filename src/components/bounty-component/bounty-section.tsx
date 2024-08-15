@@ -8,7 +8,7 @@ import { Bounties } from "./Bounties";
 export const BountySection = () => {
   return (
     <div className="bg-basebgblack pb-20 text-basewhite">
-      <div className="mb-32 mx-auto gap-2 text-sm w-[700.71px]">
+      <div className="mb-32 mx-auto gap-2 text-sm max-w-[700.71px]">
         <div className="tags p-8">
           <h3 className="my-5 text-[#999999] font-semibold">TAGS</h3>
           <ul className="flex gap-2">

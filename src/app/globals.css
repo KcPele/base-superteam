@@ -67,3 +67,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.page-transition {
+  transition: all 0.5s ease-in-out;
+}

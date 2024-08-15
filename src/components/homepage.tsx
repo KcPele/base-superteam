@@ -22,15 +22,15 @@ export const Homepage = () => {
 
         <div className="flex gap-3">
           <Link href={"/bounty"}>
-            <p className="group bg-baseblue hover:bg-transparent border border-baseblue hover:text-baseblue rounded-3xl w-44 hover:justify-between p-3 text-xs flex">
+            <p className="page-transition page-tra group bg-baseblue hover:bg-transparent border border-baseblue hover:text-baseblue rounded-full w-44 hover:justify-between px-4 py-2 text-xs flex">
               For Bounty Owners{" "}
               <span>
-                <MdKeyboardArrowRight className="text-lg" />{" "}
+                <MdKeyboardArrowRight className="page-transition text-lg" />{" "}
               </span>
             </p>
           </Link>
           <Link href={"/bounty"}>
-            <p className="group bg-transparent hover:bg-baseblue hover:text-basewhite border border-baseblue rounded-3xl w-44 hover:justify-between p-3 text-baseblue text-xs flex">
+            <p className="page-transition group bg-transparent hover:bg-baseblue hover:text-basewhite border border-baseblue rounded-full w-36 hover:justify-between px-4 py-2 text-baseblue text-xs flex">
               For Talents{" "}
               <span>
                 <MdKeyboardArrowRight className="text-lg" />{" "}

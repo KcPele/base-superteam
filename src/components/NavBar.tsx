@@ -18,21 +18,15 @@ export const NavBar = () => {
       if (navbar) {
         if (window.scrollY > 50) {
           navbar.classList.add(
-            "bg-gradient-to-tr",
-            "from-basebgblack",
-            "to-basewhite",
+            "text-basewhite",
             "shadow-lg",
-            "border-b",
           );
           navbar.classList.remove("bg-transparent");
         } else {
           navbar.classList.add("bg-transparent");
           navbar.classList.remove(
-            "bg-gradient-to-tr",
-            "from-basebgblack",
-            "to-basewhite",
+            "text-basewhite",
             "shadow-lg",
-            "border-b",
           );
         }
       }
@@ -48,7 +42,7 @@ export const NavBar = () => {
   return (
     <div
       id="navbar"
-      className="flex z-50 items-center justify-around p-5 text-center fixed w-full bg-transparent"
+      className="page-transition flex z-50 items-center justify-around p-5 text-center fixed w-full backdrop-blur-md"
     >
       <Link href={"/"}>
         <h1 className="font-bold text-lg flex">
@@ -80,10 +74,15 @@ export const NavBar = () => {
         </li>
       </ul>
       <div className="flex items-center gap-5">
-        <Link href={"/"}>
+        <Link href={"/create-project"}>
           <p className="">Post Bounties</p>
         </Link>
-        <Avatar>
+        <Link href={"/create-profile"}>
+            <p className="page-transition bg-baseblue hover:bg-transparent border border-baseblue hover:text-baseblue rounded-full py-2 px-3 text-basewhite text-xs flex">
+              Create Account
+            </p>
+          </Link>
+        <Avatar className="hidden">
           <AvatarImage src="https://github.com/shadcn.png" />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>

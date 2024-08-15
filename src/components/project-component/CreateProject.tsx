@@ -15,7 +15,9 @@ export const CreateProject = () => {
           </p>
         </div>
       </div>
-      <div className="bg-basebgblack text-basewhite pb-20 py-16 px-36"></div>
+      <div className="bg-basebgblack text-basewhite pb-20 py-16 px-48">
+        <CreateProjectForm />
+      </div>
     </div>
   );
 };
