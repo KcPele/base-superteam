@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import CreateProjectForm from "./create-project-form";
+import CreateProjectForm from "./CreateProjectForm";
 export const CreateProject = () => {
   return (
     <div>

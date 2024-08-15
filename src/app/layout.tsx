@@ -4,7 +4,7 @@ import "@coinbase/onchainkit/styles.css";
 
 import "./globals.css";
 import OnchainProviders from "@/providers/OnchainProviders";
-import { NavBar } from "@/components/nav-bar";
+import { NavBar } from "@/components/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -1,4 +1,4 @@
-import { BountyDetails } from '@/components/bounty-details'
+import { BountyDetails } from '@/components/bounty-component/BountyDetails'
 import { notFound } from 'next/navigation';
 import React from 'react'
 

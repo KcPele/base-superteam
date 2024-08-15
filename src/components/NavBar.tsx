@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../public/images/logo.png";
 import { useAccount } from "wagmi";
-import { ConnectButton } from "./connect-button/ConnectButton";
+import { ConnectButton } from "./ui/connect-button/ConnectButton";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 
 export const NavBar = () => {

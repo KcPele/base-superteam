@@ -1,5 +1,5 @@
 import React from 'react'
-import { SearchBounty } from './search-bounty'
+import { SearchBounty } from './bounty-component/SearchBounty'
 import ShinyButton from './magicui/shiny-button'
 import ShimmerButton from './magicui/shimmer-button'
 

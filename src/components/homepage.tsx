@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 export const Homepage = () => {
   return (
@@ -13,17 +14,30 @@ export const Homepage = () => {
         </h1>
       </div>
       <div className="grid gap-5 max-w-lg text-basewhite">
-        <p>
+        <p className="font-light">
           We integrate courses&#44; bounty listings&#44; creative hubs&#44; and
           on-chain activities into a seamless experience&#44; allowing you to
           engage with the Base ecosystem like never before.
         </p>
 
-        <Link href={"/bounty"}>
-          <p className="bg-baseblue rounded-3xl w-fit p-3 text-xs">
-            Get Started
-          </p>
-        </Link>
+        <div className="flex gap-3">
+          <Link href={"/bounty"}>
+            <p className="group bg-baseblue hover:bg-transparent border border-baseblue hover:text-baseblue rounded-3xl w-44 hover:justify-between p-3 text-xs flex">
+              For Bounty Owners{" "}
+              <span>
+                <MdKeyboardArrowRight className="text-lg" />{" "}
+              </span>
+            </p>
+          </Link>
+          <Link href={"/bounty"}>
+            <p className="group bg-transparent hover:bg-baseblue hover:text-basewhite border border-baseblue rounded-3xl w-44 hover:justify-between p-3 text-baseblue text-xs flex">
+              For Talents{" "}
+              <span>
+                <MdKeyboardArrowRight className="text-lg" />{" "}
+              </span>
+            </p>
+          </Link>
+        </div>
       </div>
     </div>
   );

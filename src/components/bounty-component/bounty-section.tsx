@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Tt from "../../public/icons/usdc.svg";
-import dummyData, { DataProp } from "../../dummy-data";
-import { Bounties } from "./bounties";
+import dummyData, { DataProp } from "../../../dummy-data";
+import { Bounties } from "./Bounties";
 
 export const BountySection = () => {
   return (

@@ -1,5 +1,5 @@
-import { BountySection } from '@/components/bounty-section'
-import { HeroSection } from '@/components/hero-section'
+import { BountySection } from '@/components/bounty-component/bounty-section'
+import { HeroSection } from '@/components/HeroSection'
 import React from 'react'
 
 const page = () => {

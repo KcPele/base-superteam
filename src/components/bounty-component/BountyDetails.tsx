@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { DataProp } from "../../dummy-data";
+import { DataProp } from "../../../dummy-data";
 import { FaRegBell } from "react-icons/fa";
 
 export const BountyDetails = ({ getData }: any) => {
