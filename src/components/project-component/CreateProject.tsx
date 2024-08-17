@@ -5,7 +5,7 @@ import CreateProjectForm from "./CreateProjectForm";
 export const CreateProject = () => {
   return (
     <div>
-      <div className="bg-basewhite px-36 pt-40 pb-20">
+      <div className="bg-basewhite px-32 pt-40 pb-20">
         <div className="flex flex-col gap-2 max-w-lg">
           <p className="text-lg text-baseblack font-semibold">
             Create Project/ Organization

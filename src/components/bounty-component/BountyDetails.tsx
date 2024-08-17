@@ -6,7 +6,7 @@ import { FaRegBell } from "react-icons/fa";
 export const BountyDetails = ({ getData }: any) => {
   return (
     <div>
-      <div className="bg-basewhite font-semibold flex px-28 pt-40 pb-10 justify-between">
+      <div className="bg-basewhite font-semibold flex px-32 pt-40 pb-10 justify-between">
         <div className="flex flex-col gap-2 max-w-lg">
           <p className="text-lg text-baseblack">{getData.title}</p>
           <p className="text-3xl text-baseblack">{getData.task}</p>
@@ -136,7 +136,8 @@ export const BountyDetails = ({ getData }: any) => {
             <button className="flex gap-1 items-center justify-center">
               <FaRegBell /> <span>Interested</span>
             </button>
-            <button className="bg-baseblue rounded-3xl p-2">Submit</button>
+            <button className="page-transition bg-baseblue hover:bg-transparent border border-baseblue hover:text-baseblue rounded-3xl p-2 text-basewhite">Submit</button>
+            
           </div>
         </div>
       </div>

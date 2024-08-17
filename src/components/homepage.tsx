@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 export const Homepage = () => {
   return (
-    <div className="bg-[url('/images/homepage-hero.png')] bg-cover pt-[260px] h-screen px-36">
+    <div className="bg-[url('/images/homepage-hero.png')] bg-cover pt-[260px] h-screen px-32">
       <div className="grid gap-12 my-16">
         <h1 className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-7xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
           Earn&#44; Create and Innovate

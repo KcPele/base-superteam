@@ -1,16 +1,12 @@
-import Image from 'next/image'
 import React from 'react'
-import { FaSpinner } from 'react-icons/fa'
-// import LoadingImage from "../../public/images/loading.png";
 
-const loading = () => {
+export default function Loading() {
   return (
-    <div className='h-screen w-full text-center text-2xl font-bold'>
-      {/* <FaSpinner className='animate-spin' /> */}
-      Loading...
-      {/* <Image src={LoadingImage} alt='loading' height={100} width={100} className='w-full h-fit animate-spin' /> */}
-    </div>
+    <main className='text-center h-full'>
+      <div className='my-36'>
+        <h1 className='text-[#000775 my-3]'>Loading<span className='animate-bounce'>...</span></h1>
+        <p>Hopefully not for too long :)</p>
+      </div>
+    </main>
   )
 }
-
-export default loading
