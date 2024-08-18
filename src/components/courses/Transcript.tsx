@@ -45,11 +45,11 @@ const Transcript = () => {
         <p className="text-sm text-gray-300">
           Hello, there! In this insight we talk about the importance of having a
           strong team and what to keep in mind when building one. Hiring your
-          first employees is an exciting milestone for any startup founder. It's
-          a sign that your dream is becoming a reality and your company is
-          growing. However, it can also be a time consuming and stressful
-          process. Hiring the wrong people could cost you dearly, in time and
-          money, it could even destroy your business.
+          first employees is an exciting milestone for any startup founder.
+          It&apos;s a sign that your dream is becoming a reality and your
+          company is growing. However, it can also be a time consuming and
+          stressful process. Hiring the wrong people could cost you dearly, in
+          time and money, it could even destroy your business.
         </p>
       </div>
     </div>

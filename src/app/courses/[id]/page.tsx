@@ -61,17 +61,17 @@ const Courses = () => {
               operations without compromising on security.
             </p>
             <p>
-              Base's architecture enables seamless interoperability with other
-              blockchains, allowing developers to build on Ethereum's robust
-              ecosystem while benefiting from the efficiency and scalability of
-              Layer 2 technology. With a focus on user-friendly integration and
-              developer support, Base aims to accelerate the adoption of
-              blockchain technology by making it more accessible and practical
-              for a wide range of use cases, from decentralized finance (DeFi)
-              to gaming and beyond. Whether you're a seasoned developer or new
-              to the world of blockchain, Base offers the tools and resources
-              needed to build, deploy, and scale innovative solutions in a
-              rapidly evolving digital landscape. 4o
+              Base&apos;s architecture enables seamless interoperability with
+              other blockchains, allowing developers to build on Ethereum&apos;s
+              robust ecosystem while benefiting from the efficiency and
+              scalability of Layer 2 technology. With a focus on user-friendly
+              integration and developer support, Base aims to accelerate the
+              adoption of blockchain technology by making it more accessible and
+              practical for a wide range of use cases, from decentralized
+              finance (DeFi) to gaming and beyond. Whether you&apos;re a
+              seasoned developer or new to the world of blockchain, Base offers
+              the tools and resources needed to build, deploy, and scale
+              innovative solutions in a rapidly evolving digital landscape. 4o
             </p>
           </div>
           <div className="my-5 sm:mt-10">
