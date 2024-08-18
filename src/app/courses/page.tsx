@@ -5,6 +5,7 @@ import Transcript from "@/components/courses/Transcript";
 import { FaRegHeart } from "react-icons/fa6";
 import { IoIosArrowBack, IoIosPeople } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import Comment from "@/components/courses/Comment";
 
 const Courses = () => {
   return (
@@ -72,6 +73,9 @@ const Courses = () => {
               needed to build, deploy, and scale innovative solutions in a
               rapidly evolving digital landscape. 4o
             </p>
+          </div>
+          <div className="my-5 sm:mt-10">
+            <Comment />
           </div>
         </div>
       </div>
