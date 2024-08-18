@@ -22,9 +22,9 @@ export default function RootLayout({
     <html lang="en">
       <OnchainProviders>
         <body className={inter.className}>
-          <NavBar />
+          {/* <NavBar /> */}
           {children}
-          </body>
+        </body>
       </OnchainProviders>
     </html>
   );
