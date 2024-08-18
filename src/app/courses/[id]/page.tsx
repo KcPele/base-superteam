@@ -21,7 +21,7 @@ const Courses = () => {
           <video
             className="w-full max-h-[535px] rounded-t-xl"
             controls
-            src="https://www.youtube.com/watch?v=zWh3CShX_do"
+            src="https://s3-figma-videos-production-sig.figma.com/video/1253410643039608123/TEAM/fde6/ebc3/-a9c0-47db-a363-afe581a063ac?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ejefGuAv-jiYxcl4ZysoSOnfXVQfKOJGbrcTW9eVI4UGAvnIibU1gh65nHJAjV8s9wUQNrYItdtb08kc~TZZyRNpFrPVJxBRVHcwDdhvXPf2DXt4ixaKLgDeH7tC5npuz~VGF2igJhEZkdlwAKD2WOoU33pBtQ-hdf6q9Bc~c7WiUMa-0HQXjzbtVNr3eunswyIbzXlJZCuxxMBkawvNojEAU3WdIykCjg8Vc3t4jjb2ysez86n~wgCxhDckSOObjQm1K8HhNS~4XWcnWeyGSgkPljjf2f6WuPwEROhVZRht1P0~tixR3oBY8bbWBvUOyJ~F6IPZarS5sQPRWKFucQ__"
           />
         </div>
         <div className="mt-4 flex flex-col sm:flex-row justify-between items-center gap-4">
