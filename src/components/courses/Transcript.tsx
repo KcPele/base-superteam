@@ -17,7 +17,7 @@ const Transcript = () => {
     },
   ]);
   return (
-    <div className=" max-w-[290px] w-full px-4">
+    <div className=" max-w-[290px] hidden lg:block w-full px-4">
       <h2 className="text-lg text-primary-foreground mb-3">Transcript</h2>
       <div>
         <div className=" flex mb-4 ">

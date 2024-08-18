@@ -17,7 +17,7 @@ const Comment: React.FC = () => {
           <input
             type="text"
             placeholder="Add a comment"
-            className="flex-1 pl-4 bg-transparent border-none outline-none text-white placeholder-gray-500 focus:border-none"
+            className="flex-1 pl-4 w-full bg-transparent border-none outline-none text-white placeholder-gray-500 focus:border-none"
           />
           <button className="px-4 py-2">Post</button>
         </div>
