@@ -80,7 +80,7 @@ const CreateProjectForm = () => {
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="grid grid-cols-1 lg:grid-cols-2 gap-5"
+          className="flex flex-col lg:grid lg:grid-cols-2 gap-5"
         >
           <FormField
             control={form.control}
@@ -88,7 +88,7 @@ const CreateProjectForm = () => {
             render={({ field }) => (
               <FormItem>
                 <FormLabel>Project Name</FormLabel>
-                <FormControl className="border-baseblack px-3 py-5">
+                <FormControl className="border-baseblack rounded-xl px-3 py-5">
                   <Input
                     placeholder="project name"
                     {...field}
@@ -106,7 +106,7 @@ const CreateProjectForm = () => {
             render={({ field }) => (
               <FormItem>
                 <FormLabel>Username</FormLabel>
-                <FormControl className="border-baseblack px-3 py-5">
+                <FormControl className="border-baseblack rounded-xl px-3 py-5">
                   <Input
                     placeholder="business name"
                     {...field}
@@ -124,11 +124,11 @@ const CreateProjectForm = () => {
             render={({ field }) => (
               <FormItem className="col-span-2">
                 <FormLabel>Description</FormLabel>
-                <FormControl className="border-baseblack px-3 py-5">
+                <FormControl className="border-baseblack rounded-xl px-3 py-5">
                   <Textarea
                     placeholder="project description"
                     {...field}
-                    className="bg-transparent"
+                    className="bg-transparent h-36"
                   />
                 </FormControl>
                 <FormMessage />
@@ -142,7 +142,7 @@ const CreateProjectForm = () => {
             render={({ field }) => (
               <FormItem>
                 <FormLabel>Project URL</FormLabel>
-                <FormControl className="border-baseblack px-3 py-5">
+                <FormControl className="border-baseblack rounded-xl px-3 py-5">
                   <Input
                     placeholder="https://yourproject.com"
                     {...field}
@@ -163,7 +163,7 @@ const CreateProjectForm = () => {
                   Project Twitter{" "}
                   <span className="font-light italic">(optional)</span>
                 </FormLabel>
-                <FormControl className="border-baseblack px-3 py-5">
+                <FormControl className="border-baseblack rounded-xl px-3 py-5">
                   <Input
                     placeholder="https://twitter.com/yourproject"
                     {...field}
@@ -181,7 +181,7 @@ const CreateProjectForm = () => {
             render={({ field }) => (
               <FormItem>
                 <FormLabel>Email Address</FormLabel>
-                <FormControl className="border-baseblack px-3 py-5">
+                <FormControl className="border-baseblack rounded-xl px-3 py-5">
                   <Input
                     placeholder="youremail@domain.com"
                     {...field}
@@ -200,7 +200,7 @@ const CreateProjectForm = () => {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>Country Code</FormLabel>
-                  <FormControl className="border-baseblack px-3 py-5">
+                  <FormControl className="border-baseblack rounded-xl px-3 py-5">
                     <Select {...field}>
                       <SelectTrigger className="bg-transparent border-baseblack">
                         <SelectValue placeholder="country code" />
@@ -225,7 +225,7 @@ const CreateProjectForm = () => {
               render={({ field }) => (
                 <FormItem className="col-span-3">
                   <FormLabel>Business Phone Number</FormLabel>
-                  <FormControl className="border-baseblack px-3 py-5">
+                  <FormControl className="border-baseblack rounded-xl px-3 py-5">
                     <Input
                       placeholder="+234"
                       {...field}
@@ -244,7 +244,7 @@ const CreateProjectForm = () => {
             render={({ field }) => (
               <FormItem>
                 <FormLabel>Industry</FormLabel>
-                <FormControl className="border-baseblack px-3 py-5">
+                <FormControl className="border-baseblack rounded-xl px-3 py-5">
                   {/* <Input placeholder="Enter your industry" {...field} className="bg-transparent" /> */}
                   <Select {...field}>
                     <SelectTrigger className="bg-transparent border-baseblack">
@@ -270,7 +270,7 @@ const CreateProjectForm = () => {
             render={({ field }) => (
               <FormItem>
                 <FormLabel>Bounty Types</FormLabel>
-                <FormControl className="border-baseblack px-3 py-5">
+                <FormControl className="border-baseblack rounded-xl px-3 py-5">
                   {/* <Input placeholder="Enter the bounty type" {...field} className="bg-transparent" /> */}
                   <Select {...field}>
                     <SelectTrigger className="bg-transparent border-baseblack">
@@ -296,7 +296,7 @@ const CreateProjectForm = () => {
             render={({ field }) => (
               <FormItem className="col-span-2">
                 <FormLabel>Upload Image</FormLabel>
-                <FormControl className="border-baseblack px-3 py-5 border-dotted border-2 p-4 grid gap-3 h-36">
+                <FormControl className="border-baseblack rounded-xl px-3 py-5 border-dotted border-2 p-4 grid gap-3 h-36">
                   <Input
                     type="file"
                     accept="image/*"

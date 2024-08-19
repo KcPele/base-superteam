@@ -8,11 +8,11 @@ import Link from "next/link";
 export const HeroSection = () => {
   return (
     <div className="bg-[url('/images/hero-image.png')] bg-cover text-center pt-[150px]">
-      <h1 className="text-[46.78px] font-bold text-baseblack">
+      <h1 className="text-3xl md:text-4xl lg:text-[46.78px] font-bold text-baseblack px-2">
         The Home of Bounties
       </h1>
-      <div className="bg-[url('/images/hero-image-2.png')] grid gap-10 bg-cover bg-blend-multiply bg-baseblack text-basewhite">
-        <p className="text-[20px] w-[448.57px] mx-auto">
+      <div className="bg-[url('/images/hero-image-2.png')] grid gap-10 px-2 bg-cover bg-blend-multiply bg-baseblack text-basewhite">
+        <p className="font-semibold md:text-[20px] md:w-[448.57px] mx-auto">
           Where projects and talents come together to build, inspire, and
           innovate.
         </p>

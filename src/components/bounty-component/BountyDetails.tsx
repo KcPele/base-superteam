@@ -6,10 +6,10 @@ import { FaRegBell } from "react-icons/fa";
 export const BountyDetails = ({ getData }: any) => {
   return (
     <div>
-      <div className="bg-basewhite font-semibold flex px-32 pt-40 pb-10 justify-between">
+      <div className="bg-basewhite font-semibold flex flex-col md:flex-row px-4 md:px-10 lg:px-32 pt-40 pb-10 justify-between">
         <div className="flex flex-col gap-2 max-w-lg">
-          <p className="text-lg text-baseblack">{getData.title}</p>
-          <p className="text-3xl text-baseblack">{getData.task}</p>
+          <p className="text-sm md:text-base lg:text-lg text-baseblack">{getData.title}</p>
+          <p className="text-lg md:text-xl lg:text-3xl text-baseblack">{getData.task}</p>
         </div>
         <div className="flex flex-col h-fit my-auto justify-end gap-2">
           <p className="text-[#999999] text-xs font-semibold text-end">
@@ -28,8 +28,8 @@ export const BountyDetails = ({ getData }: any) => {
           </div>
         </div>
       </div>
-      <div className="grid bg-basebgblack gap-6 grid-cols-3 py-16 px-28">
-        <div className="col-span-2 p-2 flex flex-col gap-3">
+      <div className="bg-basebgblack flex flex-col-reverse gap-6 md:grid md:grid-cols-2 lg:grid-cols-3 py-16 px-4 md:px-10 lg:px-32">
+        <div className="lg:col-span-2 p-2 flex flex-col gap-3">
           <p className="text-basewhite text-lg">About Listing and Space</p>
           <p className="text-basebrown">
             Is making content your speciality? Well here&lsquo;s a Bounty for you!
@@ -64,7 +64,7 @@ export const BountyDetails = ({ getData }: any) => {
             content about what&lsquo;s happening in the ever growing Solana Ecosystem
           </p>
         </div>
-        <div className="col-span-1 flex flex-col p-8 gap-6 rounded-lg shadow-md bg-baseblack h-fit">
+        <div className="col-span-1 flex flex-col m-auto p-8 gap-6 rounded-lg shadow-md bg-baseblack max-w-md h-fit">
           <div className="grid grid-cols-2">
             {" "}
             <p className="text-basebrown">Grand Prize</p>

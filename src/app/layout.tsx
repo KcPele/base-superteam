@@ -5,6 +5,8 @@ import "@coinbase/onchainkit/styles.css";
 import "./globals.css";
 import OnchainProviders from "@/providers/OnchainProviders";
 import { NavBar } from "@/components/NavBar";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,10 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <OnchainProviders>
-        <body className={inter.className}>
+        <body className={inter.className} style={{ scrollBehavior: "smooth" }}>
           <NavBar />
-          {children}
-          </body>
+          <Suspense fallback={<Loading />}>{children}</Suspense>
+        </body>
       </OnchainProviders>
     </html>
   );
