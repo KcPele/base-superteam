@@ -36,6 +36,50 @@ export const NavBar = () => {
     };
   }, []);
 
+  const links = [
+    {
+      name: "Learn",
+      url: "/",
+    },
+    {
+      name: "Projects",
+      url: "/",
+    },
+    {
+      name: "Bounties",
+      url: "/bounty",
+    },
+    {
+      name: "Resources",
+      url: "/",
+    },
+    {
+      name: "About",
+      url: "/",
+    },
+  ];
+  const navLinks = () => {
+    return (
+      <ul className="flex gap-2 lg:gap-5 flex-col md:flex-row">
+        {links.map((link, index) => (
+          <li
+            key={index}
+            className="hover:bg-gray-600/50 px-2 rounded-lg hover:text-white"
+          >
+            <Link href={link.url}>
+              <p className="">{link.name}</p>
+            </Link>
+          </li>
+        ))}
+        <li className="block xs:hidden hover:bg-gray-600/50 px-2 rounded-lg hover:text-white">
+          <Link className="" href={"/"}>
+            <p className="">Post Bounties</p>
+          </Link>
+        </li>
+      </ul>
+    );
+  };
+
   return (
     <div
       id="navbar"

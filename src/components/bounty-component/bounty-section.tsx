@@ -6,6 +6,15 @@ import dummyData, { DataProp } from "../../../dummy-data";
 import { Bounties } from "./Bounties";
 
 export const BountySection = () => {
+  const tags = [
+    { name: "Design", link: "" },
+    { name: "Frontend", link: "" },
+    { name: "Backend", link: "" },
+    { name: "Writing", link: "" },
+    { name: "Manager", link: "" },
+    { name: "Auditor", link: "" },
+    { name: "Logos", link: "" },
+  ];
   return (
     <div className="bg-basebgblack p-2 pb-20 text-basewhite">
       <div className="mb-32 mx-auto gap-2 text-sm max-w-[700.71px]">
